@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIA Application Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LIA Application Tracker</h1>
+    <p>Track your internship applications</p>
+
+    <form id="applicationForm">
+      <input type="text" id="company" placeholder="Company" required>
+      <input type="text" id="role" placeholder="Role" required>
+
+      <select id="status" required>
+        <option value="">Select status</option>
+        <option value="Applied">Applied</option>
+        <option value="Waiting">Waiting</option>
+        <option value="Interview">Interview</option>
+        <option value="Rejected">Rejected</option>
+        <option value="Accepted">Accepted</option>
+      </select>
+
+      <input type="date" id="date" required>
+
+      <button type="submit">Add Application</button>
+    </form>
+
+    <h2>My Applications</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Role</th>
+          <th>Status</th>
+          <th>Date</th>
+           <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="applicationList"></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

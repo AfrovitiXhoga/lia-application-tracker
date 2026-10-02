@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "company": "Example Company",
+    "role": "LIA DevSecOps",
+    "status": "Applied",
+    "date": "2026-10-01"
+  },
+  {
+    "id": 2,
+    "company": "Spotify",
+    "role": "LIA DevSecOps",
+    "status": "Applied",
+    "date": "2026-10-01"
+  }
+]
