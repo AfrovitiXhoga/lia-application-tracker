@@ -1,4 +1,5 @@
 # LIA Application Tracker
+![CI](https://github.com/AfrovitiXhoga/lia-application-tracker/actions/workflows/ci.yml/badge.svg)
 ## Live Demo
 
 https://lia-application-tracker.onrender.com
