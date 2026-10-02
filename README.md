@@ -1,4 +1,11 @@
 # LIA Application Tracker
+## Live Demo
+
+https://lia-application-tracker.onrender.com
+
+## GitHub Repository
+
+https://github.com/AfrovitiXhoga/lia-application-tracker
 
 A simple full-stack web application for tracking internship (LIA) applications.
 
