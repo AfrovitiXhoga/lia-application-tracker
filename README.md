@@ -66,3 +66,16 @@ node index.js
 Then open:
 
 http://localhost:3000
+## Docker
+
+Build the image:
+
+docker build -t lia-application-tracker .
+
+Run the container:
+
+docker run -p 3000:3000 lia-application-tracker
+
+Then open:
+
+http://localhost:3000
