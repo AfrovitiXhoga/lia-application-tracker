@@ -38,6 +38,20 @@ A simple full-stack web application for tracking internship (LIA) applications.
 ## Purpose
 
 This project was built as a personal project to practice full-stack development, REST APIs and basic backend/frontend integration.
+## What I learned
+
+While building this project I practiced:
+
+- Creating a REST API with Node.js and Express
+- Connecting a frontend to a backend API
+- Working with CRUD operations
+- Saving and loading data from JSON
+- Using Git and GitHub for version control
+- Deploying a Node.js application with Render
+- Working with environment variables such as PORT
+## Screenshot
+
+![LIA Application Tracker](screenshot.png)
 
 ## Run locally
 
